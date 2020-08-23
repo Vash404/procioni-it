@@ -6,6 +6,7 @@ body {
     margin: 0;
     font-family: Arial;
     font-size: 17px;
+    background-image: url('assets/images/background.png');
 }
 
 #videobcg { 
