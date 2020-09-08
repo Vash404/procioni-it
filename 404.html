@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="it-it">
+<head>
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="true">
+
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="shortcut icon" type="image/ico" href="assets/images/favicon.ico"/>
+
+
+<!-- Primary Meta Tags -->
+<title>404 Procioni non trovati :(</title>
+
+</head>
+<body>
+<!--id="videobcg-->
+<div class="container">
+    <video autoplay muted loop playsinline id="myVideo">
+    <source src="assets/videos/404.mp4" type="video/mp4">
+    404 pagina non trovata <a href="index.html">Home</a>
+    </video>
+    <div class="top-left">404 Pagina non trovata!</div>
+</div>
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myAudio").autoplay;
+  document.getElementById("demo").innerHTML = x;
+}
+</script>
+	
+<script>
+var video = document.getElementById("myVideo");
+var btn = document.getElementById("myBtn");
+
+function myFunction() {
+  if (video.paused) {
+    video.play();
+    btn.innerHTML = "Pause";
+  } else {
+    video.pause();
+    btn.innerHTML = "Play";
+  }
+}
+</script>
+
+<style>
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.top-left {
+  position: absolute;
+  /*bottom: 8px;*/
+  left: 16px;
+}
+</style>
+
+</body>
+</html>
