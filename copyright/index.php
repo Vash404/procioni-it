@@ -1,11 +1,40 @@
 <!doctype html>
-<html lang="it">
+<html lang="it" prefix="og: http://ogp.me/ns#">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="Procione">
-    <link rel="icon" href="assets/favicon.ico">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Procioni.it">
+    <meta property="og:title" content="Copyright">
+    <meta property="og:description" content="Sito web che raccoglie i copyright registrati presso di noi, con i relativi proprietari e le relative date.">
+    <meta property="og:url" content="https://procioni.it/copyright/">
+    <meta property="og:locale" content="it_IT">
+    <meta property="og:image" content="https://procioni.it/copyright/immagini/logo.png">
+
+    <!-- START FAVICON -->
+
+    <link rel="apple-touch-icon" sizes="57x57" href="immagini/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="immagini/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="immagini/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="immagini/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="immagini/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="immagini/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="immagini/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="immagini/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="immagini/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="immagini/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="immagini/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="immagini/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="immagini/favicon/favicon-16x16.png">
+    <link rel="manifest" href="immagini/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="immagini/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- END FAVICON -->
 
     <title>Copyright</title>
 
@@ -106,9 +135,12 @@
         <p class="float-right">
           <a href="#">Torna all'inizio</a>
         </p>
-        <p>QUESTO SITO NON VA PRESO SUL SERIO.</p>
-        <p><b>NESSUN</b> COPYRIGHT (&copy;) PRESENTE SU QUESTO SITO VA PRESO SERIAMENTE.</p>
-        <p>SE HAI DOMANDE O LAMENTELE CONTATTA <a href="mailto:lucchesi@quiethub.it">lucchesi@quiethub.it</a></p>
+        <p class="text-light">QUESTO SITO NON VA PRESO SUL SERIO.</p>
+        <p class="text-light"><b>NESSUN</b> COPYRIGHT (&copy;) PRESENTE SU QUESTO SITO VA PRESO SERIAMENTE.</p>
+        <p class="text-light">SE HAI DOMANDE O LAMENTELE CONTATTA <a href="mailto:lucchesi@quiethub.it">lucchesi@quiethub.it</a></p>
+      </div>
+      <div class="container text-center">
+      <img class="rounded mx-auto d-block" style="width: 200px; height: 200px;" src="immagini/logo.png"></img>
       </div>
     </footer>
 
