@@ -136,7 +136,7 @@
           <a href="#">Torna all'inizio</a>
         </p>
         <p class="text-light">QUESTO SITO NON VA PRESO SUL SERIO.</p>
-        <p class="text-light"><b>NESSUN</b> COPYRIGHT (&copy;) PRESENTE SU QUESTO SITO VA PRESO SERIAMENTE.</p>
+        <p class="text-light"><b>NESSUN</b> COPYRIGHT (&copy;) PRESENTE HA VALORE LEGALE.</p>
         <p class="text-light">SE HAI DOMANDE O LAMENTELE CONTATTA <a href="mailto:lucchesi@quiethub.it">lucchesi@quiethub.it</a></p>
       </div>
       <div class="container text-center">
