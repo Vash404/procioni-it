@@ -48,7 +48,7 @@
   </head>
     <?php
         require 'assets/secrets.php';
-        $query = "SELECT immagine, descrizione, nome, data FROM copyright";
+        $query = "SELECT id, immagine, descrizione, nome, data FROM copyright";
         $result = mysqli_query($conn, $query);
     ?>
 
@@ -110,6 +110,9 @@
                             <div class="card mb-4 box-shadow">
                                 <img class="card-img-top" src="'.$row["immagine"].'">
                                 <div class="card-body">
+                                    <div class="d-flex justify-content-between text-right">
+                                          <p>Copyright #'.$row["id"].'
+                                    </div>
                                     <p class="card-text">'.$row["descrizione"].'</p>
                                     <div class="d-flex justify-content-between align-items-center">
                                         <div class="btn-group">
