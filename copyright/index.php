@@ -108,7 +108,7 @@
                     echo '
                         <div class="col-md-4">
                             <div class="card mb-4 box-shadow">
-                                <img class="card-img-top" src="'.$row["immagine"].'">
+                                <img class="card-img-top" src="immgini/upload/'.$row["immagine"].'">
                                 <div class="card-body">
                                     <div class="d-flex justify-content-between text-right">
                                           <p>Copyright #'.$row["id"].'
