@@ -31,6 +31,15 @@
 <meta property="twitter:description" content="Vuoi vedere dei procioni che bevono il latte e cercano di affogare?">
 <meta property="twitter:image" content="assets\images\0b1ad2b3361ab99389940ee48cf56d71.jpg">
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-83J0GM4T3X"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-83J0GM4T3X');
+</script>
 </head>
 <body>
 
