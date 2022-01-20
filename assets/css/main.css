@@ -60,3 +60,19 @@ h1 {
     background-color: #666;
     color: white;
 }
+
+@media (min-width: 320px) and (max-width: 768px) {
+    .column {
+        -ms-flex: 100%; /* IE 10 */
+        flex: 100%;
+        padding: 0 4px;
+    }
+}
+
+@media (min-width: 520px) and (max-width: 1024px) {
+    .column {
+        -ms-flex: 50%; /* IE 10 */
+        flex: 50%;
+        padding: 0 4px;
+    }
+}
