@@ -1,0 +1,67 @@
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Colonne più larghe */
+  grid-auto-rows: auto; /* Altezza dinamica in base al contenuto */
+  gap: 5px; /* Maggior spazio tra le colonne */
+  width: 100%;
+  margin: 0 auto;
+}
+
+.gallery-item {
+  display: block;
+  position: relative;
+  background: #e0e0e0; /* Placeholder grigio */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.gallery-item img,
+.gallery-item video {
+  width: 100%; /* Adatta alla larghezza */
+  height: auto; /* Mantiene proporzioni */
+  display: block;
+}
+
+.loaded {
+  background: none; /* Rimuove il placeholder quando caricato */
+}
+
+video {
+  background: black;
+}
+
+/* Responsività */
+@media (max-width: 1200px) {
+  .gallery-container {
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Colonne leggermente più strette su schermi medi */
+  }
+}
+
+@media (max-width: 768px) {
+  .gallery-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Colonne ancora più strette su schermi piccoli */
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery-container {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); /* Una colonna per smartphone */
+  }
+}
+
+
+
+body {
+  background-color: #121212; /* Colore scuro per lo sfondo */
+  color: #e0e0e0; /* Colore chiaro per il testo */
+  font-family: 'Arial', sans-serif; /* Font leggibile */
+}
+
+.gallery-container {
+  background-color: #121212; /* Sfondo scuro anche per la galleria */
+  padding: 20px; /* Aggiungi un po' di spazio interno */
+}
+
+.loader {
+  color: #e0e0e0; /* Colore del testo del caricamento */
+}
