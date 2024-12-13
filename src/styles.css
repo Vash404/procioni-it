@@ -18,3 +18,13 @@
 ::-webkit-scrollbar-thumb:hover {
   background: linear-gradient(180deg, #66bb6a, #a5d6a7); /* Colore quando passa il mouse */
 }
+
+body {
+  background-color: #121212; /* Colore scuro per lo sfondo */
+  color: #e0e0e0; /* Colore chiaro per il testo */
+  font-family: 'Arial', sans-serif; /* Font leggibile */
+
+  margin: 0; /* Rimuove i margini di default */
+  padding: 0;
+  overflow-x: hidden; /* Evita lo scorrimento orizzontale */
+}
